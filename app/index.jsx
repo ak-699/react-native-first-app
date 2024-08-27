@@ -9,7 +9,14 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Hello boss</Text>
+      <Text
+        style={{
+          fontFamily: "outfit-bold",
+          fontSize: 40,
+        }}
+      >
+        Hello boss
+      </Text>
     </View>
   );
 }
